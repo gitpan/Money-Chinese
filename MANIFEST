@@ -4,4 +4,8 @@ MANIFEST
 README
 t/01basic.t
 t/02object.t
+t/03exceptions.t
+t/04small_numbers.t
+t/05large_numbers.t
+t/06comma_and_space.t
 lib/Money/Chinese.pm
