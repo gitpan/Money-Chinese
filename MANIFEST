@@ -1,0 +1,7 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/01basic.t
+t/02object.t
+lib/Money/Chinese.pm

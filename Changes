@@ -1,0 +1,6 @@
+Revision history for Perl extension Money::Chinese.
+
+0.02  Sat Jul 18 02:17:57 2009
+	- original version; created by h2xs 1.23 with options
+		-v 0.02 -XAn Money::Chinese
+
