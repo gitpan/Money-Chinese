@@ -11,7 +11,7 @@ use 5.004;
 use strict;
 use vars qw($VERSION);
 
-$VERSION = '1.07';
+$VERSION = '1.08';
 
 use Carp;
 use Data::Dumper;
@@ -134,7 +134,7 @@ Money::Chinese - Converting Arabic numerals into Chinese
   
   $object = Money::Chinese->new;
   
-  $object->convert('100030.46');
+  $Chinese = $object->convert('100030.46');
 
 =head1 DESCRIPTION
 
@@ -143,14 +143,14 @@ The function of B<Money::Chinese> is converting Arabic numerals into Chinese.
 
 =head1 ACKNOWLEDGEMENTS
 
-A special thanks to Larry Wall <lt>larry@wall.org<gt> for convincing me that
+A special thanks to Larry Wall <larry@wall.org> for convincing me that
 no development could be made to the Perl community without everyone's contribution.
 I also appreciate my wife Fu Na, who works for a finacial institution, 
 have been helping me work through problems besides technical issues.
 
 =head1 AUTHOR
 
-Pan Yu <lt>xiaocong@vip.163.com<gt>
+Pan Yu <xiaocong@vip.163.com>
 
 =head1 COPYRIGHT AND LICENSE
 
