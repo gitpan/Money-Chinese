@@ -8,5 +8,6 @@ WriteMakefile(
     PREREQ_PM         => {}, # e.g., Module::Name => 1.1
     ($] >= 5.005 ?     ## Add these new keywords supported since 5.005
       (ABSTRACT_FROM  => 'lib/Money/Chinese.pm', # retrieve abstract from module
-       AUTHOR         => 'A. U. Thor <a.u.thor@a.galaxy.far.far.away>') : ()),
+      LICENSE		=> 'Perl',
+       AUTHOR         => 'Pan Yu <xiaocong[at]vip.163.com>') : ()),
 );
