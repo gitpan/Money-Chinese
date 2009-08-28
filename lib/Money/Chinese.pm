@@ -11,10 +11,9 @@ use 5.004;
 use strict;
 use vars qw($VERSION);
 
-$VERSION = '1.08';
+$VERSION = '1.09';
 
 use Carp;
-use Data::Dumper;
 
 my @Chinese = qw( Áã Ò¼ ·¡ Èþ ËÁ Îé Â½ Æâ °Æ ¾Á );
 

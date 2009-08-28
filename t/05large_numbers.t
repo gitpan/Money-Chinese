@@ -1,6 +1,3 @@
-# There is only one part in this test.
-# 1. Using $object->convert('xxx.xx')
-
 #########################
 
 use Test::More "no_plan";

@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Money-Chinese
-version:            1.08
+version:            1.09
 abstract:           Converting Arabic numerals into Chinese
 author:
     - Pan Yu <xiaocong[at]vip.163.com>
