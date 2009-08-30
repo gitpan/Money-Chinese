@@ -1,10 +1,13 @@
 #########################
 
-use Test::More tests => 4;
+use Test::More;
+
 BEGIN {
-    eval "use Test::Exception";
-    plan skip_all => "Test::Exception needed" if $@;
+	eval 'use Test::Exception';
+	plan( skip_all => 'Test::Exception needed' )if $@;
 }
+
+plan( tests => 4);
 
 #########################
 
